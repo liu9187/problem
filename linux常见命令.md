@@ -4,7 +4,7 @@
 - BASH: NETSTAT: 未找到命令
    yum -y install net-tools
 - gedit 文本编辑器 对对中文有很好的支持
-- 用root修改普通用户密码 passed 用户名
+- 用root修改普通用户密码 passwd 用户名
 
 ## nginx 命令
 
