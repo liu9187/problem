@@ -44,6 +44,15 @@
 13|docker inspect 容器id|容器详情
 14|docker ps |查看容器|子命令 -a 查看已经创建容器 -s 查看正在运行的容器
 15|docker run --rm --name web2 --link mysql:mysql training/webapp env |env 查看web容器的环境变量
+16|docker network ls  | 列出所有网络
+17|docker network prune | 清除无用的网络
+18|docker run busybox env | 查看镜像的环境变量
+19|docker system prune --volumes -f | 清除无用的容器、网络、挂在卷、临时镜像、和缓存
+20|
+
+
+
+
 
 
 
